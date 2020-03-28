@@ -2,7 +2,7 @@ package com.example.kotlinplayground
 
 open class Transport(color: String, year: Int, model: String) {
     open fun beep() {
-        println("BEEEP")
+        println("BEEEP!")
     }
 }
 
@@ -26,6 +26,8 @@ class Car(engineVolume: Double,
         }
         speed -= delta
     }
+
+    // overriding the parent's functionality
 
     override fun beep() {
         println("I AM THE CAR AND I AM BEEPING !!!")

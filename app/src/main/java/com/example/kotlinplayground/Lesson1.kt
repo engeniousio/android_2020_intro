@@ -148,6 +148,7 @@ fun testClasses() {
     lambo.accelerate(5)
     lambo.accelerate(15)
     lambo.decelerate(25)
+    lambo.accelerate(1)
     println("Lambo speed: ${lambo.speed}")
 
 //    audiCar.speed = 300   ---  Error
